@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping ("/Social")
-@CrossOrigin 
+@CrossOrigin (origins = "http://http://localhost:4200")
 public class SocialController {
         @Autowired
         ImpSocialService impSocialService;

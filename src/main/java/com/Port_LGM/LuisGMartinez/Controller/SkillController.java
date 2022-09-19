@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping ("/Habilidad")
-@CrossOrigin 
+@CrossOrigin (origins = "http://http://localhost:4200") 
 public class SkillController {
     @Autowired
     ImpSkillService impSkillService;
